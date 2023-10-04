@@ -27,6 +27,7 @@ namespace ProductUI
             gvProduct.DataBind();
             Session["product"] = product;
         }
+        //added comment...
         protected void UpdateProduct_Click(object sender, EventArgs e)
         {
             Product product = new Product();
