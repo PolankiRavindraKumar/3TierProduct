@@ -38,6 +38,7 @@ namespace ProductUI
                     tbProductName.Text = p.ProductName;
                     tbManufacturer.Text = p.Manufacturer;
                     tbQuantity.Text = p.Quantity.ToString();
+                    break;
                 }
             }
             
